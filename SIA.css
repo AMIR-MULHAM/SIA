@@ -19,11 +19,11 @@ text-decoration: none;
 .cont{
      color: white;
     font-size: 29px;
-   margin-left: 650px;
+   margin-left: 730px;
 }
 
 body{
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     font-family:"Bebas Neue", sans-serif;
     font-family: 'Cairo', sans-serif;
     font-size: 20px;
@@ -49,6 +49,9 @@ p{
     padding-left: 10px;
     text-align: left;
 }
+.wa , .we{
+    font-weight: 500;
+}
 .container{
     width: 700px;
     height: 200px;
@@ -63,6 +66,10 @@ p{
     border-radius: 50px;
     background-color: rgba(0, 0, 0, 0.6);
     box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+.esay{
+    font-weight: 600;
+    color: rgb(201, 183, 128);
 }
 .sev1{
     display: flex;
@@ -143,7 +150,11 @@ input{
   fill: white;  
 }
 button:hover{
-    background-color: rgba(0, 0, 0, 0.7);
+    transform: scale(1.2);
+}
+button:hover svg .s{
+    fill: rgb(201, 183, 128);
+    transition: 0.5s;
 }
 
 @media (max-width: 768px){
@@ -178,29 +189,38 @@ h2{
 .social-icon{
   fill: black;        
   stroke: black; 
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(218, 218, 218);
+  margin-bottom: 5px;
+  background-color: rgb(239, 237, 237);
   transition: 0.5s;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.7);;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.7);
 }
 .social-icon svg{
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
 }
 .social-icon:hover {
-  background: black;
+  background: rgb(6, 51, 46);
+  transform: scale(1.2);
 }
 
-.special:hover svg {
-  fill: white;
-  stroke: white;
+.social-icon:hover svg {
+  fill: rgb(201, 183, 128);
+  transition: 0.5s;
 }
 .esay{
     padding-right: 12px;
+}
+
+#title,#contact{
+   font-family: "Bebas Neue", sans-serif;
+   font-weight: 500;
+   font-size: 37px;
+   color: rgb(201, 183, 128);;
 }
 
